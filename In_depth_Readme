@@ -1,0 +1,31 @@
+Currently contains:
+
+
+#Several "resource" buttons which: 
+- on click activate a function which starts a value at 0 and goes up to the max values that each
+resource has. This values is set to a slider(which is also the interface of the button) for ease
+of representation. Once the function reaches the max value it gives a reward.
+-these resources's reward and time to complete can be upgraded using the upgrade button beneath 
+the sliders.
+-some resources are locked, but they can be unlocked by spending money.
+
+#The sidekick menu
+-Sidekicks can be bought and run on a resource for an amount of time, giving it's rewards.
+-A check is also implemented for when the program closes.
+-The sidekicks ccan be bought and equipped at a later date.
+
+#The Manager menu
+-Contains permanent upgrades which affect rewards, completion times etc.
+
+#A reset button 
+-It sets your money to 0 and resets all your upgrades, excluding the managers.
+-It is used to promovate a student through his stages, ending in his promovation.
+
+#A shop menu 
+-It currently has no functionality other than providing a fix amount of money when 
+you click on the first icon ( used for testing)
+
+#A save system using Serialization
+
+#A daily quest system
+-Provides random daily quests
